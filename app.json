@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "kaiflow",
-    "slug": "kaiflow",
+    "name": "KaiCash",
+    "slug": "kaicash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,15 +11,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#050508",
+        "foregroundImage": "./assets/icontransparent.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.hakaitsu.kaicash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3cb2ac04-3bbf-4ee2-985c-4966d3ee1cc1"
+      }
     }
   }
 }
